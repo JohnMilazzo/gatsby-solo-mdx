@@ -1,0 +1,37 @@
+{
+  "name": "gatsby-solo-mdx",
+  "version": "0.0.11",
+  "description": "A Gatsby Solo starter from AtomicGatsby.com featuring gatsby-plugin-mdx.",
+  "main": "index.js",
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "npm run develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve"
+  },
+  "keywords": [
+    "Atomic Gatsby",
+    "GatsbyJS",
+    "Gatsby",
+    "mdx"
+  ],
+  "author": "John Milazzo <jm@atomicgatsby.com>",
+  "license": "MIT",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohnMilazzo/gatsby-solo-mdx.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JohnMilazzo/gatsby-solo-mdx/issues"
+  },
+  "homepage": "https://github.com/JohnMilazzo/gatsby-solo-mdx#readme",
+  "dependencies": {
+    "@mdx-js/mdx": "^0.20.3",
+    "@mdx-js/tag": "^0.20.3",
+    "gatsby": "^2.2.6",
+    "gatsby-mdx": "^0.4.4",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  }
+}
